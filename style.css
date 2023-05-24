@@ -40,7 +40,7 @@ nav .container-fluid {
     display: flex;
     height: 100%;
     width: 100% !important;
-    background-image: url(/supports/Images/Profile-BG.jpg);
+    background-image: url(supports/Images/Profile-BG.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
