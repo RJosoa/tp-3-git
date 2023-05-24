@@ -1,4 +1,214 @@
-h1 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 
+
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
 }
+
+
+nav {
+    display: flex;
+    height: 100px;
+    width: 100%;
+    padding: 20px;
+    
+}
+
+nav .container-fluid {
+    background: rgba(255, 255, 255, 0.459);
+}
+.btn-group{
+    background-color: #2c285b;
+    color: #2c285b;
+}
+
+.btn {
+    color: white !important;
+}
+
+/* main {
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    height: 100px;
+    width: 100%;
+} */
+
+.profile {
+    display: flex;
+    height: 100%;
+    width: 100% !important;
+    background-image: url(/supports/Images/Profile-BG.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.defile {
+    height: 100vh ;
+    width: 100%;
+    align-items: flex-end;
+    overflow: hidden;
+}
+
+.txt {
+    white-space: nowrap;
+    font-size: 200px;
+    animation: Scroll 20s linear infinite;
+    color: #fff;
+}
+
+@keyframes Scroll {
+    0% {
+        transform: translate(0%);
+    }
+
+    100% {
+        transform: translate(-100%);
+    }
+}
+
+.media {
+    width: 100%;
+    height: 300px;
+}
+
+.wrapper .button{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    margin: 0 5px;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+    transition: all 0.3s ease-out;
+  }
+  .wrapper .button:hover{
+    width: 200px;
+  }
+  .wrapper .button .icon{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+  }
+  .wrapper .button:nth-child(1):hover .icon{
+    background: #4267B2;
+  }
+  .wrapper .button:nth-child(2):hover .icon{
+    background: #1DA1F2;
+  }
+  .wrapper .button:nth-child(3):hover .icon{
+    background: #E1306C;
+  }
+  .wrapper .button:nth-child(4):hover .icon{
+    background: #333;
+  }
+  .wrapper .button:nth-child(5):hover .icon{
+    background: #ff0000;
+  }
+  .wrapper .button .icon i{
+    font-size: 25px;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+  }
+  .wrapper .button:hover .icon i{
+    color: #fff;
+  }
+  .wrapper .button span{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+    transition: all 0.3s ease-out;
+  }
+  .wrapper .button:nth-child(1) span{
+    color: #4267B2;
+  }
+  .wrapper .button:nth-child(2) span{
+    color: #1DA1F2;
+  }
+  .wrapper .button:nth-child(3) span{
+    color: #E1306C;
+  }
+  .wrapper .button:nth-child(4) span{
+    color: #333;
+  }
+  .wrapper .button:nth-child(5) span{
+    color: #ff0000;
+  }
+
+
+  .projets {
+    width: 100%;
+    height: 150vh;
+    background-color: #1E1E24;
+    padding: 20px 0;
+  }
+
+  .projet{
+    margin: 10px;
+    height: 100%;
+    border-radius: 15px;
+    background-image: url(/supports/Images/Profile-BG.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+  }
+
+  .competance {
+    width: 100%;
+    height: 30%;
+  }
+
+  .competance div{
+    background-color: #fff;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+  }
+
+  
+
+  .intituler{
+    color: aliceblue;
+    border-radius: 15px;
+    height: 20%;
+    
+  }
+  
+ .intituler h1{
+    font-size: 100px;
+    margin: 10px;
+ }
+
+  .projets div {
+    margin: 10px;
+
+  }
+
+  div .top{
+    height: 40%;
+    
+  }
+
+  div .middle {
+    height: 20%;
+  }
+
+  div.bottom{
+      height: 40%;
+    }
