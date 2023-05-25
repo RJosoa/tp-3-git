@@ -159,7 +159,7 @@ nav .container-fluid {
     margin: 10px;
     height: 100%;
     border-radius: 15px;
-    background-image: url(/supports/Images/Profile-BG.jpg);
+    background-image: url(supports/Images/Profile-BG.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
